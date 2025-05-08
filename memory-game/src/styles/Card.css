@@ -6,6 +6,10 @@
     color: #121b44;
     padding: 2px;
 }
+.card:hover {
+    transition: box-shadow 0.2s ease-in-out;
+    box-shadow: 0 4px 8px rgb(255, 255, 255);
+}
 .card img {
     border-radius: 10px;
     width: 100%;
